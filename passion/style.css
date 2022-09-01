@@ -1,0 +1,48 @@
+body{
+  background: seashell; 
+  font-family: Arial, Helvetica, sans-serif
+}
+
+p{
+    color: rgb(98, 48, 12);
+    padding: 16px;
+    font-size: 18px;
+    margin: 4px;
+}
+ul{
+    color:rgb(98, 48, 12);
+    font-size: 18px;
+}
+h1{
+    color:rgb(119, 0, 0);
+    font-size: 32px;
+    padding: 16px;
+    margin: 4px;
+    font-weight: bolder;
+}
+
+h2{
+    color: rgb(98, 48, 12);
+    font-size: 24px;
+    padding: 16px;
+    margin: 4px;
+
+}
+
+.special{
+    color:rgb(98, 48, 12);
+    font-weight: bold;
+    margin: 4px;
+    
+}
+mark{
+    color: rgb(98, 48, 12)
+}
+img{
+    padding: 8px;
+    border: 8px double rgb(119, 0, 0);
+
+}
+ul{
+    list-style:circle;
+}
