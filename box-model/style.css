@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    }
+
+.content {
+    background-color:lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.border{
+    background-color:lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid;
+    margin: 50px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
