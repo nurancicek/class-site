@@ -1,3 +1,7 @@
+body{
+    background: url(images/background.jpeg);
+    
+}
 .md1 {
     position: absolute;
     top: 250px;
