@@ -1,0 +1,50 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgba(166, 222, 245, 0.325);
+}
+
+.sun{
+    animation: spin 20s infinite linear;
+}
+
+.cloud1 {
+    position:fixed;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+    animation: cloud 30s infinite ease-in-out;
+}
+.cloud2{
+    position:fixed;
+    top: 20px;
+    left: -20px;
+    animation: cloud 20s infinite; 
+}
+
+.cloud3{
+    position:fixed;
+    right: 10px;
+    top:15%;
+    animation: cloud 35s infinite; 
+
+}
+
+@keyframes spin{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@keyframes cloud{
+    0%{
+        transform:translateX(-200px);
+    }
+    100%{
+        transform:translateX(100vw);
+    }
+}
