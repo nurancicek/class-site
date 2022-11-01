@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    background-image: url("../control/table.png");
+    background-repeat: no-repeat;
+    background-size: 80vw;  
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+
+body.dark{
+    background-color: black;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -35px;
+}
+
+.group2{
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+
+.group3{
+    position: fixed;
+    top:200px;
+    right:10px;
+}
+
+.draggable{
+    cursor: grab;
+}
+
