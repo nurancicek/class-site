@@ -4,7 +4,7 @@
 body{
     background-image: url("../control/table.png");
     background-repeat: no-repeat;
-    background-size: 80vw;  
+    background-size: contain;  
     background-attachment: fixed;
     background-position: center; 
     
@@ -18,8 +18,10 @@ body.dark{
 .flex{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: -35px;
+    pointer-events: none;
 }
 
 .group2{
@@ -36,5 +38,6 @@ body.dark{
 
 .draggable{
     cursor: grab;
+    pointer-events: auto;
 }
 
