@@ -30,6 +30,11 @@ p{
     display: block;
     align-items: center;
     justify-content: center;
+    margin-right: 200px;
+}
+
+.page-indicator{
+    font-weight: bold;
 }
 
 
@@ -136,4 +141,19 @@ nav {
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 10%;
+}
+
+.content-wrap2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.text-wrap{
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.space{
+    margin-top: 30px;
 }
